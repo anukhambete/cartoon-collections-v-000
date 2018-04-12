@@ -15,10 +15,10 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = cheese_types.length - 1
   
-    while i > 0 
+    while i >= 0 
     j = array.length - 1
     
-      while j > 0 
+      while j >= 0 
         if cheese_types[i]==array[j]
           return array[i]
         end
