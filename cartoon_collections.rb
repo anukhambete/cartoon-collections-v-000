@@ -10,7 +10,12 @@ def long_planeteer_calls(array)
   call_array = []
   call_array << array.collect {|call| call.length > 4 ? true : false}
   
-  if call_array.include?
+  if call_array.include?(true)
+    true
+  else
+    false
+  end
+  
 end
 
 def find_the_cheese# code an argument here
