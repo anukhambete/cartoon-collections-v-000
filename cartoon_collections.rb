@@ -21,11 +21,10 @@ def find_the_cheese(array)
       while j > 0 
         if cheese_types[i]==array[j]
           return array[i]
-        else
-          nil
         end
         j = j - 1
       end
       i = i - 1
     end
+    nil
 end
